@@ -1,0 +1,75 @@
+// chung
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.wrapper {
+    --search-boder-radius: 92px;
+    --search-top-bot-spacer: 9px;
+    --search-height: 46px;
+    --search-btn-width: 52px;
+
+    height: var(--default-layout-header-height);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 1px rgb(0 0 0/12%);
+    width: 100%;
+}
+
+
+.inner {
+    width: 1150px;
+    height: 100%;
+    padding: 0 var(--default-layout-spacer-pad);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.more-btn {
+    margin-left: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    padding: 8px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-btn {
+    margin-left: 8px;
+    cursor: pointer;
+    // width: 30px;
+    // height: 30px;
+    // font-size: 2rem;
+    padding: 8px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // color: rgba(22, 24, 35, 0.34);/
+
+    // &.active {
+    //     color: rgba(22, 24, 35, 0.75);
+    // }
+}
+
+.header-avatar {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}

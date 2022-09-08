@@ -1,0 +1,17 @@
+
+.menu-item {
+    margin-left: 0 !important;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.8rem;
+    border-radius: 0;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.boder_top {
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+}
